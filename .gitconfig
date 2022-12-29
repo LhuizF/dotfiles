@@ -1,0 +1,17 @@
+[user]
+	name = Luiz Henrique Ferreira
+	email = 80434677+LhuizF@users.noreply.github.com
+[core]
+	autocrlf = true
+	editor = code --wait
+[http]
+	postBuffer = 157286400
+[alias]
+  s = !git status -s
+  c = !git add . && git commit -m
+  l = !git log --pretty=format:'%C(red)%d %C(green)%h %C(white)%s - %C(cyan)%cn %C(blue)%cr '
+  r = !git reset HEAD~1
+  rc = !git commit --amend --no-edit
+  rt = !git reset --hard
+[push]
+  followTags = true
