@@ -11,6 +11,8 @@
   "liveServer.settings.donotVerifyTags": true,
   "terminal.integrated.fontFamily": "cascadia code PL",
   "terminal.external.windowsExec": "C:\\Users\\Luiz\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe",
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
@@ -244,7 +246,7 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[prisma]": {
     "editor.formatOnSave": true
@@ -282,7 +284,12 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "cSpell.userWords": ["esports", "Esports", "unstarted"],
+  "cSpell.userWords": [
+    "esports",
+    "Esports",
+    "spotify",
+    "unstarted"
+  ],
   "editor.fontFamily": "Fira code",
   "diffEditor.ignoreTrimWhitespace": false,
   "npm.keybindingsChangedWarningShown": true,
@@ -295,5 +302,7 @@
   "editor.inlineSuggest.showToolbar": "always",
   "files.autoSave": "afterDelay",
   "workbench.colorTheme": "Dracula",
-  "dotnet.server.useOmnisharp": true
+  "dotnet.server.useOmnisharp": true,
+  "typescript.format.semicolons": "insert",
+  "workbench.startupEditor": "none"
 }
