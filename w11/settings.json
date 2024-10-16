@@ -298,7 +298,7 @@
   "[json]": {
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
-  "discloud.token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI3MDQwMTM1MTM1ODM0OTMxMyIsImtleSI6IlZGWk1GYSJ9.j0CX1KjFHJERbEv4DPyHi7RXIstrE67-WFjPxA_pFYY", // TOKEN
+  "discloud.token": "", // TOKEN
   "editor.wordWrap": "on",
   "typescript.preferences.importModuleSpecifier": "relative",
   "editor.inlineSuggest.showToolbar": "always",
