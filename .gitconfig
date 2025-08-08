@@ -1,6 +1,6 @@
 [user]
 	name = Luiz Henrique Ferreira
-	email = 80434677+LhuizF@users.noreply.github.com
+	email = luizhff@gmail.com
 [core]
 	autocrlf = true
 	editor = code --wait
@@ -13,5 +13,6 @@
   r = !git reset HEAD~1
   rc = !git commit --amend --no-edit
   rt = !git reset --hard
+  noedit = !git commit --amend --no-edit
 [push]
   followTags = true
