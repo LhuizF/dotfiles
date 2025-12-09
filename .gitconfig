@@ -14,5 +14,6 @@
   rc = !git commit --amend --no-edit
   rt = !git reset --hard
   noedit = !git commit --amend --no-edit
+  fo = !git fetch origin
 [push]
   followTags = true
